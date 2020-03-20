@@ -2,7 +2,7 @@
 
 0. 为了更好的运行这份代码，建议先对这份 [教程](<https://cg.cs.tsinghua.edu.cn/jittor/tutorial/2020-3-17-09-55-segmentation/>)  进行阅读。
 
-1. 你可以在下方链接处下载ImageNet pretrain model。
+1. 你可以在下方链接处下载ImageNet pretrain model, 由于我们暂时没有 ImageNet 的 Pre-train model 所以暂时先使用的是 pytorch 的预训练模型。这里也同时体现了我们和 pytorch 是兼容的。
 
 [resnet_101](<https://cloud.tsinghua.edu.cn/f/736e24afb94347b8a0b6/?dl=1> )
 

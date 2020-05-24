@@ -63,7 +63,7 @@ def main():
     learning_rate = 0.005
     momentum = 0.9
     weight_decay = 1e-4
-    optimizer = nn._SGD(model.parameters(), learning_rate, momentum, weight_decay)
+    optimizer = nn.SGD(model.parameters(), learning_rate, momentum, weight_decay)
     writer = SummaryWriter(os.path.join('curve', 'train.events.wo_drop'))
     epochs = 50
     evaluator = Evaluator(21)

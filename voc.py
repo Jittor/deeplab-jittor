@@ -120,7 +120,7 @@ class BaseDataset(Dataset):
         self.total_len = len(self.image_path)
 
         # set_attr must be called to set batch size total len and shuffle like __len__ function in pytorch
-        self.set_attr(batch_size = self.batch_size, total_len = self.total_len, shuffle = self.shuffle) # bs , total_len, shuffle
+        self.set_attrs(batch_size = self.batch_size, total_len = self.total_len, shuffle = self.shuffle) # bs , total_len, shuffle
 
 
     def __getitem__(self, image_idimage_id):
